@@ -17,8 +17,10 @@ Nice to Have
 • Сборка и запуск Docker контейнера с этим сервисом
 
 Endpoints
+
 • /api/v1/gif - запрос на получения гифки
 • /api/v1/codes - запрос доступных кодов валют
 
 Запуск
+
 • java -jar currency-checker-0.0.1-SNAPSHOT-plain
