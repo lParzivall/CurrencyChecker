@@ -25,9 +25,9 @@ Nice to Have
 
 Endpoints
 
-* /api/v1/gif - запрос на получения гифки
+* /api/v1/currency-checker/gif/{code} - запрос на получения гифки
 
-* /api/v1/codes - запрос доступных кодов валют
+* /api/v1/currency-checker/codes - запрос доступных кодов валют
 
 Запуск
 
