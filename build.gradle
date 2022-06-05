@@ -19,7 +19,8 @@ ext {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'junit:junit:4.12'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
 dependencyManagement {
@@ -30,4 +31,17 @@ dependencyManagement {
 
 tasks.named('test') {
 	useJUnitPlatform()
+}
+
+test {
+	useJUnitPlatform()
+}
+
+task copyJarToRoot {
+	doLast {
+		copy {
+			from './build/libs/currency-checker-0.0.1-SNAPSHOT-plain.jar'
+			into "./"
+		}
+	}
 }
