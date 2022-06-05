@@ -19,6 +19,7 @@ Nice to Have
 Endpoints
 
 • /api/v1/gif - запрос на получения гифки
+
 • /api/v1/codes - запрос доступных кодов валют
 
 Запуск
