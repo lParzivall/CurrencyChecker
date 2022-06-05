@@ -31,4 +31,4 @@ Endpoints
 
 Запуск
 
-* java -jar currency-checker-0.0.1-SNAPSHOT-plain
+* java -jar currency-checker-0.0.1-SNAPSHOT-plain.jar
